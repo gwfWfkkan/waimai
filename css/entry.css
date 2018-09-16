@@ -1,0 +1,335 @@
+/*
+* @Author: gf880623
+* @Date:   2018-08-16 16:33:31
+* @Last Modified by:   gf880623
+* @Last Modified time: 2018-08-17 10:08:41
+*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+.beijing{
+	width: 100%;
+	height: 13.34rem;
+	background-color: red;
+	background-image: url('../img/bj.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.beijing .zhe{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	overflow: hidden;
+	position: relative;
+}
+.beijing .zhe .top{
+	width: 100%;
+	height: 0.83rem;
+	padding-right: 0.24rem;
+}
+.beijing .zhe a{
+	display: block;
+	width: 100%;
+	height: 0.83rem;
+}
+.beijing .zhe .top .right{
+	width: 0.48rem;
+	height: 100%;
+	float: right;
+	position: relative;
+}
+.beijing .zhe .top .right i{
+	font-size: 0.37rem;
+	color: white;
+	position: absolute;
+	top: 0.2rem;
+}
+.beijing .zhe .top .zhu{
+	width: 1.18rem;
+	height: 100%;
+	float:right;
+	font-size: 0.34rem;
+	font-weight: bold;
+	font-family: "苹方";
+	text-align: center;
+	line-height: 0.83rem;
+	color: #f44842;
+}
+.beijing .zhe .ming{
+	width: 100%;
+	height: 0.36rem;
+	margin-top: 3.14rem;
+	font-size: 0.34rem;
+	color: #f44842;
+	font-family: "苹方";
+	font-weight: bold;
+	text-align: center;
+	line-height: 0.36rem;
+}
+.beijing .zhe .tuo{
+	width: 100%;
+	height: 8.21rem;
+	/* background-color: red; */
+	margin-top: 0.79rem;
+	background-image: url('../img/tuo.png');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.beijing .zhe .tuo .xiang{
+	width: 3.14rem;
+	height: 2.95rem;
+	/* background-color: red; */
+	position: absolute;
+	top: -0.5rem;
+	left: 2.07rem;
+	background-image: url('../img/tb.png');
+	background-position: center;
+	background-size: cover;
+}
+.beijing .zhe .shuru{
+	width: 100%;
+	height: 3.67rem;
+	/* background-color: pink; */
+	position: absolute;
+	top: 7.5rem;
+	padding: 0 1.37rem;
+	overflow: hidden;
+}
+.beijing .zhe .shuru .zi1{
+	width: 1.34rem;
+	height: 0.18rem;
+	background-color:red;
+	background-image: url('../img/zi1_03.png');
+	background-size: cover;
+	background-position: center;
+}
+.beijing .zhe .shuru .zi1 img{
+	width: 100%;
+	height: 100%;
+}
+.beijing .zhe .shuru .kuang1{
+	width: 100%;
+	margin-top: 0.1rem;
+	
+}
+.beijing .zhe .shuru .kuang1 .tu{
+	width: 0.39rem;
+	height: 0.55rem;
+	float: left;
+	/* background-color: red; */
+}
+.beijing .zhe .shuru .kuang1 .tu i{
+	font-size: 0.39rem;
+	color: #fb5b5d;
+	text-align: center;
+	line-height: 0.55rem;
+	float: left;
+}
+.beijing .zhe .shuru .kuang1 input{
+	width: 3.74rem;
+	height: 0.55rem;
+	border-radius: 0.1rem;
+	float: left;
+	margin-left: 0.05rem;
+	background-color: #fff0f0;
+	border: none;
+	outline: none;
+	padding-left: 0.85rem;
+	font-size: 0.24rem;
+	color: #f39ae8;
+	
+}
+.beijing .zhe .shuru .kuang1 .baliu{
+	width: 0.86rem;
+	height: 0.55rem;
+	background-color: red;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+input::-webkit-input-placeholder{
+	color: #d2d2d2;
+	font-size: 0.18rem;
+	margin-left: 0.9rem;
+	line-height: 0.55rem;
+	font-family: "苹方";
+}
+.beijing .zhe .shuru .zi2{
+	width: 1.41rem;
+	height: 0.18rem;
+	background-color:red;
+	background-image: url('../img/mima_03.png');
+	background-size: cover;
+	background-position: center;
+	margin-top: 0.75rem;
+}
+.beijing .zhe .shuru .kuang2{
+	width: 100%;
+	margin-top: 0.1rem;
+}
+.beijing .zhe .shuru .kuang2 .tu1{
+	width: 0.39rem;
+	height: 0.55rem;
+	float: left;
+	/* background-color: red; */
+}
+.beijing .zhe .shuru .kuang2 .tu1 i{
+	font-size: 0.39rem;
+	color: #fb5b5d;
+	text-align: center;
+	line-height: 0.55rem;
+	float: left;
+}
+.beijing .zhe .shuru .kuang2 input{
+	width: 3.74rem;
+	height: 0.55rem;
+	border-radius: 0.1rem;
+	float: left;
+	margin-left: 0.05rem;
+	background-color: #fff0f0;
+	border: none;
+	outline: none;
+	padding-left: 0.85rem;
+	font-size: 0.24rem;
+	color: #f39ae8;
+}
+.beijing .zhe .shuru .jizhu{
+	width: 100%;
+	line-height: 0.18rem;
+	color: #f44842;
+	font-size: 0.18rem;
+	font-family: "苹方";
+	margin-top: 0.7rem;
+}
+.beijing .zhe .shuru .yan{
+	width: 100%;
+	height: 0.55rem;
+	margin-top: 0.1rem;
+	/* background-color: red; */
+	padding-left: 0.4rem;
+}
+.beijing .zhe .shuru .yan .shuzi{
+	width: 2.16rem;
+	height: 0.55rem;
+	border-bottom: 1px solid #999;
+	float: left;
+}
+.beijing .zhe .shuru .yan .shuzi input{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	outline: none;
+}
+.beijing .zhe .shuru .yan input{
+	width: 1.34rem;
+	height: 0.55rem;
+	border-radius: 0.1rem;
+	border: none;
+	background-color: #fff0f0;
+	float: left;
+	margin-left: 0.25rem;
+	font-family: "苹方";
+	font-size: 0.18rem;
+	text-align: center;
+	line-height: 0.55rem;
+	color: #999;
+}
+.beijing .zhe .shuru a{
+	display: block;
+	width: 3.62rem;
+	height: 0.6rem;
+}
+.beijing .zhe .shuru .denglu{
+	width: 3.62rem;
+	height: 0.6rem;
+	/* background-color: red; */
+	margin-top: 0.15rem;
+	margin-left: 0.25rem;
+}
+.beijing .zhe .shuru .denglu input{
+	width: 3.62rem;
+	height: 0.6rem;
+	border-radius: 0.1rem;
+	background-color:#fec6c6;
+	float: left;
+	border: 1px solid #e5e1e1;
+	color: white;
+	font-size: 0.34rem;
+	font-family: "苹方";
+	font-weight: bold;
+	text-align: center;
+	line-height: 0.6rem;
+	outline: none;
+}
+.beijing .zhe .tuo .zi3{
+	width: 100%;
+	height: 0.32rem;
+	/* background-color: pink; */
+	position: absolute;
+	top: 6rem;
+}
+.beijing .zhe .tuo .zi3 img{
+	float:right;
+	width: 7.38rem;
+	height: 0.32rem;
+}
+.beijing .zhe .tuo .tubiao{
+	width: 100%;
+	height: 0.75rem;
+	/* background-color: red; */
+	position: absolute;
+	top: 6.7rem;
+}
+.beijing .zhe .tuo .tubiao ul{
+	display: flex;
+	justify-content: space-around;
+}
+.beijing .zhe .tuo .tubiao ul li{
+	width: 0.75rem;
+	height: 0.75rem;
+	border-radius: 50%;
+	/* background-color: blue; */
+}
+.beijing .zhe .tuo .tubiao ul li:nth-child(1){
+	background-color: #1dccff;
+}
+.beijing .zhe .tuo .tubiao ul li:nth-child(2){
+	background-color: #1c7213;
+}
+.beijing .zhe .tuo .tubiao ul li:nth-child(3){
+	background-color: #ffd634;
+}
+.beijing .zhe .tuo .tubiao ul li:nth-child(1) i{
+	font-size: 0.38rem;
+	color: white;
+	text-align: center;
+	line-height: 0.75rem;
+	float: left;
+	margin-left: 0.18rem;
+}
+.beijing .zhe .tuo .tubiao ul li:nth-child(2) i{
+	font-size: 0.48rem;
+	text-align: center;
+	line-height: 0.75rem;
+	color: white;
+	float: left;
+	margin-left: 0.15rem;
+}
+.beijing .zhe .tuo .tubiao ul li:nth-child(3) i{
+	font-size: 0.38rem;
+	text-align: center;
+	line-height: 0.75rem;
+	float: left;
+	color: white;
+	margin-left: 0.18rem;
+}

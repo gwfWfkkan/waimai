@@ -1,0 +1,239 @@
+/*
+* @Author: gf880623
+* @Date:   2018-08-17 01:08:35
+* @Last Modified by:   gf880623
+* @Last Modified time: 2018-08-17 10:08:10
+*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+.beijing{
+	width: 100%;
+	height: 13.34rem;
+	background-color: red;
+	background-image: url('../img/bj.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.beijing .zhe{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	overflow: hidden;
+	position: relative;
+}
+.beijing .zhe a{
+	display: block;
+	width: 100%;
+	height: 0.83rem;
+}
+.beijing .zhe .top{
+	width: 100%;
+	height: 0.83rem;
+	padding-right: 0.24rem;
+}
+.beijing .zhe .top .right{
+	width: 0.48rem;
+	height: 100%;
+	float: right;
+	position: relative;
+}
+.beijing .zhe .top .right i{
+	font-size: 0.37rem;
+	color: white;
+	position: absolute;
+	top: 0.2rem;
+}
+.beijing .zhe .top .zhu{
+	width: 1.18rem;
+	height: 100%;
+	float:right;
+	font-size: 0.34rem;
+	font-weight: bold;
+	font-family: "苹方";
+	text-align: center;
+	line-height: 0.83rem;
+	color: #f44842;
+}
+.beijing .zhe .tuo{
+	width: 5.33rem;
+	height: 3.13rem;
+	border-radius: 0.1rem;
+	background-color: white;
+	margin-top: 4.28rem;
+	margin-left: 1.05rem;
+	padding-right: 0.91rem;
+	padding-left: 0.91rem;
+	padding-top: 0.3rem;
+}
+.beijing .zhe .tuo .zi1{
+	width: 1.34rem;
+	height: 0.18rem;
+	background-color:red;
+	background-image: url('../img/zi1_03.png');
+	background-size: cover;
+	background-position: center;
+}
+.beijing .zhe .tuo .kuang1{
+	width: 100%;
+	margin-top: 0.16rem;
+	
+}
+.beijing .zhe .tuo .kuang1 .tu{
+	width: 0.39rem;
+	height: 0.39rem;
+	float: left;
+}
+.beijing .zhe .tuo .kuang1 .tu i{
+	font-size: 0.39rem;
+	color: #fb5b5d;
+	text-align: center;
+	line-height: 0.39rem;
+	float: left;
+}
+.beijing .zhe .tuo .kuang1 input{
+	width: 3rem;
+	height: 0.38rem;
+	border-radius: 0.1rem;
+	float: left;
+	margin-left: 0.05rem;
+	background-color: #fff0f0;
+	border: none;
+	outline: none;
+	padding-left: 0.60rem;
+	font-size: 0.24rem;
+	color: #f39ae8;
+}
+input::-webkit-input-placeholder{
+	color: #d2d2d2;
+	font-size: 0.18rem;
+	margin-left: 0.9rem;
+	line-height: 0.38rem;
+	font-family: "苹方";
+}
+.beijing .zhe .tuo .yan{
+	width: 100%;
+	height: 0.34rem;
+	margin-top: 0.7rem;
+	/* background-color: red; */
+}
+.beijing .zhe .tuo .yan .shuzi{
+	width: 1.79rem;
+	height: 0.34rem;
+	float: left;
+	border-bottom: 1px solid #999;
+}
+.beijing .zhe .tuo .yan .shuzi input{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	outline: none;
+	float: left;
+}
+.beijing .zhe .tuo .yan input{
+	width: 1.34rem;
+	height: 0.34rem;
+	border-radius: 0.1rem;
+	border: none;
+	background-color: #fff0f0;
+	float: left;
+	margin-left: 0.25rem;
+	font-family: "苹方";
+	font-size: 0.18rem;
+	text-align: center;
+	line-height: 0.34rem;
+	color: #999;
+}
+.beijing .zhe .tuo .zi2{
+	width: 1.34rem;
+	height: 0.18rem;
+	background-color:red;
+	background-image: url('../img/mima_03.png');
+	background-size: cover;
+	background-position: center;
+	margin-top: 0.16rem;
+}
+.beijing .zhe .tuo .kuang2{
+	width: 100%;
+	margin-top: 0.16rem;
+}
+.beijing .zhe .tuo .kuang2 .tu1{
+	width: 0.39rem;
+	height: 0.39rem;
+	float: left;
+	/* background-color: red; */
+}
+.beijing .zhe .tuo .kuang2 .tu1 i{
+	font-size: 0.39rem;
+	color: #fb5b5d;
+	text-align: center;
+	line-height: 0.39rem;
+	float: left;
+}
+.beijing .zhe .tuo .kuang2 input{
+	width: 3.03rem;
+	height: 0.35rem;
+	border-radius: 0.1rem;
+	float: left;
+	margin-left: 0.05rem;
+	background-color: #fff0f0;
+	border: none;
+	outline: none;
+	padding-left: 0.6rem;
+	font-size: 0.24rem;
+	color: #f39ae8;
+}
+.beijing .zhe .tuo .que{
+	width: 3.03rem;
+	height: 0.35rem;
+	/* background-color: red; */
+	margin-top: 0.6rem;
+	margin-left: 0.4rem;
+}
+.beijing .zhe .tuo input{
+	width: 3.03rem;
+	height: 0.35rem;
+	border-radius: 0.1rem;
+	margin-left: 0.05rem;
+	background-color: #fff0f0;
+	border: none;
+	outline: none;
+	padding-left: 0.6rem;
+	font-size: 0.24rem;
+	color: #f39ae8;
+	float: left;
+
+}
+.beijing .zhe .denglu{
+	width: 3.62rem;
+	height: 0.6rem;
+	/* background-color: red; */
+	margin-top: 0.15rem;
+	margin-left: 0.25rem;
+}
+.beijing .zhe .denglu input{
+	width: 3.62rem;
+	height: 0.6rem;
+	border-radius: 0.1rem;
+	background-color:#fec6c6;
+	float: left;
+	border: 1px solid #e5e1e1;
+	color: white;
+	font-size: 0.34rem;
+	font-family: "苹方";
+	font-weight: bold;
+	text-align: center;
+	line-height: 0.6rem;
+	margin-top: 2rem;
+	margin-left: 1.7rem;
+	outline: none;
+}

@@ -1,0 +1,568 @@
+/*
+* @Author: gf880623
+* @Date:   2018-08-09 14:10:37
+* @Last Modified by:   gf880623
+* @Last Modified time: 2018-09-15 16:53:08
+*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: "苹方";
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+header{
+	width: 100%;
+	height: 2.63rem;
+	background: linear-gradient(to right,#fb595a 30%,#f15a91);
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 0 0.24rem;
+}
+header .top{
+	width: 100%;
+	height: 0.47rem;
+	/* background: red; */
+	margin-top: 0.18rem;
+}
+header .top .left{
+	width: 0.2rem;
+	height: 100%;
+	float: left;
+	/* background: blue; */
+	background-image: url('../img/s1_03.png');
+	background-position: center;
+	background-size: cover;
+}
+header .top .right{
+	width: 1.26rem;
+	height: 0.47rem;
+	float: right;
+	/* background: blue; */
+}
+header .top .right ul{
+	display: flex;
+	justify-content: flex-start;
+}
+header .top .right ul li{
+	width: 0.42rem;
+	height: 0.47rem;
+	/* background-color: pink; */
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+header .top .right ul li img:nth-child(1){
+	width: 0.35rem;
+	height: 0.47rem;
+}
+header .top .right ul li img:nth-child(2){
+	width: 0.42rem;
+	height: 0.47rem;
+}
+header .top .right ul li img:nth-child(3){
+	width: 0.32rem;
+	height: 0.47rem;
+}
+header .bottom{
+	width: 100%;
+	overflow: hidden;
+}
+header .bottom .head{
+	width: 1.07rem;
+	height: 1.07rem;
+	border-radius: 50%;
+	background-color: pink;
+	float: left;
+	margin-left: 0.2rem;
+	margin-top: 0.37rem;
+	background-image: url('../img/yu.jpg');
+	background-size: cover;
+	background-position: center;
+}
+header .bottom .right{
+	width: 5.55rem;
+	height: 1.92rem;
+	/* background-color: pink; */
+	float: right;
+	margin-left: 0.18rem;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+header .bottom .right .top{
+	width: 100%;
+	height: 0.40rem;
+	/* background-color: red; */
+	margin-top: 0;
+	font-size: 0.34rem;
+	line-height: 0.4rem;
+	color: white;
+}
+header .bottom .right .main{
+	width: 3.4rem;
+	height: 0.6rem;
+	/* background-color: blue; */
+	display:-webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	font-size: 0.24rem;
+	color: white;
+	font-family: "苹方";
+}
+.evaluate{
+	width: 100%;
+	height: 0.31rem;
+	/* background-color: yellow; */
+}
+.evaluate .evaluate1{
+	width: 1.95rem;
+	height: 100%;
+	/* background-color: blue; */
+	float: left;
+	display: flex;
+	flex-direction: row;
+}
+.evaluate .evaluate1 p{
+	color: yellow;
+	font-size: 0.24rem;
+	line-height: 0.31rem;
+}
+.evaluate .evaluate1 span{
+	color: white;
+	font-size: 0.24rem;
+	line-height: 0.31rem;
+}
+.evaluate .evaluate2{
+	width: 1.33rem;
+	height: 100%;
+	/* background-color: red; */
+	float: left;
+	display: flex;
+	flex-direction: row;
+}
+.evaluate .evaluate2 p{
+	font-size:0.24rem;
+	color: white;
+	line-height: 0.31rem; 
+}
+.evaluate .evaluate2 span{
+	font-size: 0.24rem;
+	color: white;
+	line-height: 0.31rem;
+}
+
+header .bottom .right .fav{
+	width: 100%;
+	height: 0.26rem;
+	/* background-color: white; */
+	margin-top: 0.02rem;
+}
+header .bottom .right .fav ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+header .bottom .right .fav ul li{
+	width: 1.2rem;
+	height: 0.25rem;
+	border-radius: 0.13rem;
+	box-shadow: 0 0.03rem 0.03rem 0.02rem rgb(244, 90, 61);
+	font-size: 0.18rem;
+	color: red;
+	text-align: center;
+	line-height: 0.25rem;
+	font-family: "苹方";
+	background-color: white;
+}
+.see{
+	width: 100%;
+	height: 0.98rem;
+	background-color: white;
+	box-shadow: 0 0.03rem 0.05rem 0.03rem rgb(244, 90, 61);
+	margin-top: 2.63rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.see ul{
+	display: flex;
+	justify-content: space-around;
+}
+.see ul li{
+	width: 1.47rem;
+	height: 0.33rem;
+	/* background-color: red; */
+	margin-top: 0.3rem;
+	text-align:center; 	
+	line-height: 0.33rem;
+	font-size: 0.28rem;
+	color: #a3a3a3;
+	font-family: "苹方";
+}
+.see ul li:nth-child(1){
+	color: black;
+}
+.see ul li:nth-child(2){
+	text-align: left;
+	width: 1.5rem;
+}
+.see ul li:nth-child(3){
+	text-align: left;
+}
+.see ul li:nth-child(3) .gs{
+	width: 0.44rem;
+	height: 0.2rem;
+	border-radius: 0.1rem;
+	background-color: #f25a8e;
+	float: right;
+	margin-top: 0.06rem;
+	margin-right: 0.2rem;
+	font-size: 0.18rem;
+	font-family: "苹方";
+	color: white;
+	text-align: center;
+	line-height: 0.2rem;
+}
+footer{
+	width: 100%;
+	height: 0.82rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	box-shadow: 0 -0.03rem 0.05rem 0.03rem rgb(244, 90, 61);
+	padding: 0 0.24rem;
+	margin-top: 0.2rem;
+	overflow: hidden;
+	z-index: 6;
+}
+footer .shop{
+	width: 0.66rem;
+	height: 100%;
+	background-color: red;
+	float: left;
+	background-image: url('../img/sp_03.png');
+	background-position: center;
+	background-size: cover;
+}
+footer .money{
+	width: 1.53rem;
+	height: 0.7rem;
+	/* background-color: yellow; */
+	float: left;
+	font-size: 0.24rem;
+	color: #040404;
+	margin-top: 0.07rem;
+}
+footer .balance{
+	width: 1.86rem;
+	height: 0.64rem;
+	border-radius: 0.32rem;
+	background-color: #595959;
+	float: right;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.64rem;
+	margin-top: 0.07rem;
+	color: white;
+}
+.active{
+	background-color:#f95a64; 
+}
+main{
+	width: 100%;
+	height: 8.91rem;
+	/* background-color: pink; */
+	padding: 0 0.24rem 0 0;
+	margin-top: 3.8rem;
+	margin-bottom:0.82rem ;
+	/* overflow: hidden; */
+}
+main .list{
+	width: 5.48rem;
+	height: 8.91rem;
+	/* background-color: pink; */
+	float: right;
+	overflow: scroll;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+main .list ul li{
+	width: 5.3rem;
+	height: 2.46rem;
+	border-radius: 0.1rem;
+	box-shadow: 0 0.03rem 0.05rem 0.03rem rgb(244, 90, 61);
+	margin-left: 0.1rem;
+	margin-top: 0.1rem;
+	/* overflow: hidden; */
+	position: relative;
+}
+main .list ul li i{
+	font-size: 0.78rem;
+	color: #f75a6e;
+	position: absolute;
+	background-position:right top;
+	top:-0.08rem;
+	left: 4.23rem;
+	transform: rotate(30deg);
+}
+main .list ul li .left{
+	width: 1.42rem;
+	height: 2.03rem;
+	float: left;
+	/* background-color: red; */
+	margin-top: 0.2rem;
+	margin-right: 0.2rem;
+	margin-left: 0.05rem;
+}
+main .list ul li:nth-child(1) .left{
+	background-image: url('../img/scallop.jpg');
+	background-size: cover;
+	background-position: center;
+}
+main .list ul li:nth-child(2) .left{
+	background-image: url('../img/burber.jpg');
+	background-size: cover;
+	background-position: center;
+}
+main .list ul li:nth-child(3) .left{
+	background-image: url('../img/dumpling.jpg');
+	background-size: cover;
+	background-position: center;
+}
+main .list ul li:nth-child(4) .left{
+	background-image: url('../img/shrimpo.jpg');
+	background-size: cover;
+	background-position: center;
+}
+main .list ul li .right{
+	width: 3.6rem;
+	height: 1.77rem;
+	/* background-color: pink; */
+	float: right;
+	margin-top: 0.2rem;
+	
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+main .list ul li .right .title{
+	width: 100%;
+	height: 0.36rem;
+	/* background-color: yellow; */
+	font-size: 0.34rem;
+	color: black;
+	line-height: 0.36rem;
+	font-family: :"苹方";
+	font-weight: bold;
+}
+main .list ul li .right .avg{
+	width: 100%;
+	height: 0.33rem;
+	/* background-color: green; */
+	font-size: 0.26rem;
+	color: #000000;
+}
+main .list ul li .right .evaluate{
+	width: 100%;
+	height: 0.33rem;
+	/* background-color: orange; */
+}
+main .list ul li .right .evaluate .evaluate1{
+	width: 1rem;
+	height: 100%;
+}
+main .list ul li .right .evaluate .evaluate2{
+	margin-left: 0.05rem;
+}
+main .list ul li .right .evaluate .evaluate1 p{
+	font-size: 0.26rem;
+	color: black;
+}
+main .list ul li .right .evaluate .evaluate1 span{
+	font-size: 0.26rem;
+	color: black;
+}
+main .list ul li .right .evaluate .evaluate2 p{
+	font-size: 0.26rem;
+	color: black;
+}
+main .list ul li .right .evaluate .evaluate2 span{
+	font-size: 0.26rem;
+	color: black;
+}
+main .list ul li .right .money{
+	width: 50%;
+	height: 0.35rem;
+	/* background-color: red; */
+	font-size: 0.34rem;
+	color: red;
+}
+main .list ul li .jia{
+	width: 0.39rem;
+	height: 0.39rem;
+	border-radius: 50%;
+	background-color: #f95a64;
+	/* float: right; */
+	font-size: 0.24rem;
+	color: white;
+	text-align: center;
+	position: absolute;
+	bottom: 0.1rem;
+	right: 0.1rem;
+}
+main .list ul li .jie{
+	width: 0.39rem;
+	height: 0.39rem;
+	border-radius: 50%;
+	background-color: #f95a64;
+	/* float: right; */
+	font-size: 0.24rem;
+	color: white;
+	text-align: center;
+	position: absolute;
+	bottom: 0.1rem;
+	right: 0.80rem;
+	display: none;
+}
+main .list ul li .jiashu{
+	width: 0.39rem;
+	height: 0.39rem;
+	font-size: 0.28rem;
+	text-align: center;
+	position: absolute;
+	bottom: 0.1rem;
+	right: 0.45rem;
+}
+main .content{
+	width: calc(100% - 5.66rem);
+	height: calc(100% - 3.61rem -0.82rem);
+	background-color: white;
+	float: left;
+}
+main .content ul li{
+	width: 1.55rem;
+	height: 0.94rem;
+	font-size: 0.28rem;
+	color: #333;
+	text-align: center;
+}
+main .content ul li:nth-child(2){
+	box-shadow: 0.03rem 0 0.05rem 0.03rem rgb(244, 90, 61);
+	color: rgb(244, 90, 61);
+}
+.zhifu-box{
+	width: 4.71rem;
+	height: 5.15rem;
+	border-radius: 0.3rem;
+	/* background-color: red; */
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	z-index: 55;
+	box-shadow: 0 0 0.10rem 5rem rgba(0, 0, 0, 0.6);
+	display: none;
+}
+.zhifu-box .shang{
+	width: 100%;
+	height: 2.77rem;
+	border-top-left-radius: 0.3rem;
+	border-top-right-radius: 0.3rem;
+	background-image:url("../img/you.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.zhifu-box .xia{
+	width: 100%;
+	height: calc(100% - 2.77rem);
+	border-bottom-left-radius:0.3rem;
+	border-bottom-right-radius: 0.3rem;
+	padding-left: 0.26rem;
+	padding-top: 0.33rem;
+	background-color: #fc2711;
+}
+.zhifu-box .xia h4{
+	width: 100%;
+	font-size:0.34rem;
+	color: #333; 
+	margin-bottom: 0.15rem;
+}
+.zhifu-box .xia .pp{
+	width: 100%;
+	font-size: 0.28rem;
+	color: #333;
+	margin-bottom: 0.15rem
+}
+.zhifu-box .xia .jia1{
+	width: 100%;
+	height: 0.3rem;
+}
+.zhifu-box .xia .jia1 .j1{
+	width: 0.3rem;
+	height: 0.3rem;
+	border-radius: 50%;
+	background-color: #ffff00;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.3rem;
+	color: white;
+	float: left;
+	font-weight: bold;
+	margin-right: 0.2rem;
+}
+.zhifu-box .xia .jia1 .j2{
+	width: 0.3rem;
+	height: 0.3rem;
+	border-radius: 50%;
+	background-color: #ffff00;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.3rem;
+	color: white;
+	float: left;
+	font-weight: bold;
+}
+.zhifu-box .xia .jia1 span{
+	height: 100%;
+	font-size: 0.26rem;
+	line-height: 0.3rem;
+	color:#ffff00; 
+	float: left;
+	margin-right: 0.2rem;
+}
+.zhifu-box .queren{
+	width: 100%;
+	height: 0.34rem;
+	display: flex;
+}
+.zhifu-box .queren .p1{
+	height: 100%;
+	font-size: 0.28rem;
+	color:#ffff00; 
+}
+.zhifu-box .queren .qr{
+	width: 1.35rem;
+	height: 0.34rem;
+	border-radius: 0.16rem;
+	background-color: white;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.34rem;
+	color: #ffff00;
+	margin-right: 0.1rem;
+	margin-left: 1.5rem;
+}
+.zhifu-box .queren .qr a{
+	color:#ffff00; 
+}

@@ -1,0 +1,384 @@
+/*
+* @Author: gf880623
+* @Date:   2018-08-12 23:14:53
+* @Last Modified by:   gf880623
+* @Last Modified time: 2018-09-16 15:09:05
+*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+nav{
+	width: 100%;
+	height: 0.79rem;
+	background: linear-gradient(to right,#fb595a 30%,#f15a91);
+	padding-left:0.24rem;
+	padding-right: 0.24rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+nav .arrow{
+	width: 0.3rem;
+	height: 100%;
+	float: left;
+	/* background: blue; */
+	position: relative;
+}
+nav .arrow i{
+	font-size: 0.42rem;
+	color: white;
+	position: absolute;
+	top: 0.23rem;
+	left: -0.08rem;
+}
+nav .shop{
+	width: 3.53rem;
+	height: 100%;
+	background: #999;
+	float: right;
+	margin-right: 0.25rem;
+	background-image: url('../img/t_03.png');
+	background-size: cover;
+	background-position: center;
+}
+nav .xbox{
+	width: 1.6rem;
+	height: 100%;
+	float: right;
+	/* background: blue; */
+}
+nav .xbox ul{
+	display: flex;
+	justify-content: space-between;
+}
+nav .xbox ul li{
+	width: 0.42rem;
+	height: 0.79rem;
+	/* background: red; */
+	position: relative;
+}
+nav .xbox ul li i{
+	font-size: 0.40rem;
+	text-align: center;
+	line-height: 0.79rem;
+	color: white;
+	position: absolute;
+	top: 0.08rem;
+}
+.banner{
+	width: 100%;
+	padding-top: 0.3rem;
+	padding-right: 0.24rem;
+	padding-left: 0.24rem;
+	margin-top: 0.79rem;
+}
+.banner a{
+	display: block;
+	width: 100%;
+	height: 2.56rem;
+}
+.banner .banner-pic{
+	width: 100%;
+	height: 2.56rem;
+	border-radius: 0.1rem;
+	box-shadow: 0 0.02rem 0.03rem 0.03rem rgb(251, 91,93);
+	background-image: url('../img/yu.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.banner .title{
+	width: 100%;
+	padding-top: 0.1rem;
+	font-size: 0.28rem;
+	font-family: "苹方";
+	color: black;
+	font-weight: bold;
+}
+.banner .banner-ac{
+	width: 100%;
+}
+.banner .banner-ac .con{
+	width: 2.7rem;
+	float: left;
+	display: flex;
+	flex-direction: row;
+	padding-top: 0.1rem;
+}
+.banner .banner-ac .con i{
+	font-size: 0.18rem;
+	color:red; 
+}
+.banner .banner-ac .con p{
+	font-size: 0.18rem;
+	color:black; 
+}
+.banner .banner-ac .money{
+	width: 1.41rem;
+	float: right;
+	font-size: 0.4rem;
+	color: red;
+}
+main{
+	width: 100%;
+	padding-top: 0.2rem;
+	padding-right: 0.24rem;
+	padding-left: 0.24rem;
+	overflow: hidden;
+}
+main .box-o{
+	width:100%;
+	height: 0.39rem;
+	overflow: hidden;
+}
+main .box-o .left{
+	height: 100%;
+	float: left;
+	width: 2.74rem;
+	margin-top: -0.66rem
+}	
+main .box-o .left img{
+	width: 100%;
+	height: 100%;
+}
+main .box-o .right{
+	height: 0.39rem;
+	float:right;
+}
+main .box-o .right p{
+	font-size: 0.18rem;
+	color: #999;
+	float: left;
+	padding-right: 0.1rem;
+	padding-top: 0.05rem;
+}
+main .box-o .right .ck{
+	width: 0.96rem;
+	height: 0.3rem;
+	border-radius: 0.15rem;
+	background-color:#fb5b5b;
+	font-size: 0.18rem;
+	text-align: center;
+	line-height: 0.3rem;
+	color: white;
+	float: left;
+}
+main .box-t{
+	width: 100%;
+	margin-top: 0.25rem;
+}
+main .box-t .t{
+	width: 1.1rem;
+	height: 1.1rem;
+	border-radius: 50%;
+	float: left;
+	/* background-color: red; */
+	padding-top: 0.2rem;
+	background-image: url('../img/tou.jpg');
+	background-size: cover;
+	background-position: center;
+}
+main .box-t .mz{
+	width: 1.8rem;
+	float: left;
+	padding-left: 0.1rem;
+	padding-top: 0.18rem;
+}
+main .box-t .mz h5{
+	font-size: 0.24rem;
+}
+main .box-t .mz h6{
+	font-size: 0.2rem;
+	display: flex;
+	flex-direction: row;
+} 
+main .box-t .mz h6 p{
+	font-size: 0.2rem;
+	color: yellow;
+}
+main .box-s{
+	width: 1.49rem;
+	float: right;
+	font-size: 0.2rem;
+	font-family: "苹方";
+	color: #7b7b7b;
+	padding-top: 0.18rem;
+}
+main .box-s img{
+	width: 1.4rem;
+	height: 0.53rem;
+}
+.box-f{
+	width: 100%;
+	height: 0.9rem;
+	background-color: white;
+	padding: 0 0.24rem;
+	margin-top: 0.1rem;
+}
+.box-f .box-ff{
+	width: 100%;
+	height: 100%;
+	border-radius: 0.1rem;
+	background-color: #f0f0f0;
+	padding-left: 0.55rem;
+	padding-right: 0.2rem;
+	padding-top: 0.2rem;
+	font-size: 0.2rem;
+	text-align: left;
+	color: black;
+}
+.title-o{
+	width: 4.5rem;
+	height: 0.78rem;
+	margin-top: 0.3rem;
+	background-image: url('../img/sp_07.png');
+	background-size: cover;
+	background-position: center;
+	margin-left: 0.24rem;
+}
+.title-t{
+	width: 4.47rem;
+	height: 0.48rem;
+	margin-top: 0.4rem;
+	background-image: url('../img/tj_03.png');
+	background-size: cover;
+	background-position: center;
+	margin-left: 0.24rem;
+}
+.recommend{
+	width: 100%;
+	height: 2.45rem;
+	margin-top: 0.3rem;
+	padding: 0 0.24rem;
+}
+.recommend ul{
+	display: flex;
+	justify-content: space-between;
+}
+.recommend ul li{
+	width: 1.91rem;
+	height: 2.45rem;
+	border-radius: 0.1rem;
+	/* background-color: black; */
+	box-shadow: 0.03rem 0.03rem 0.03rem 0.02rem rgb(251, 91,93);
+	
+}
+
+.recommend ul li:nth-child(1) .img{
+	width: 100%;
+	height: 1.28rem;
+	border-radius: 0.1rem;
+	/* background-color: pink; */
+	background-image: url('../img/you.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.recommend ul li:nth-child(2) .img-o{
+	width: 100%;
+	height: 1.28rem;
+	border-radius: 0.1rem;
+	/* background-color: pink; */
+	background-image: url('../img/shui.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.recommend ul li:nth-child(3) .img-t{
+	width: 100%;
+	height: 1.28rem;
+	border-radius: 0.1rem;
+	/* background-color: pink; */
+	background-image: url('../img/xia.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.recommend ul li .ename{
+	width: 100%;
+	text-align: center;
+	font-size: 0.24rem;
+	color: black;
+	font-family: "苹方";
+}
+.recommend ul li p{
+	font-size: 0.2rem;
+	color: #b4b4b1;
+	text-align: center;
+}
+.recommend ul li .box-a{
+	width: 100%;
+	height: 0.34rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	overflow: hidden;
+}
+.recommend ul li .box-a h5{
+	color: red;
+	font-size: 0.34rem;
+	font-weight: normal;
+	margin-top: -0.01rem;
+}
+.recommend ul li .box-a del{
+	color: #b4b4b1;
+	font-size: 0.18rem;
+	margin-top: 0.15rem;
+}
+.recommend ul li .box-a .box-ax{
+	width: 0.53rem;
+	height: 0.18rem;
+	background-color: #f55a7d;
+	border-radius: 0.09rem;
+	font-size: 0.18rem;
+	color: white;
+	text-align: center;
+	line-height: 0.18rem;
+	margin-top: 0.15rem;
+}
+footer{
+	width: 100%;
+	height: 0.82rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	box-shadow: 0 -0.03rem 0.05rem 0.03rem rgb(244, 90, 61);
+	padding: 0 0.24rem;
+	margin-top: 0.2rem;
+	overflow: hidden;
+}
+footer .shop{
+	width: 0.66rem;
+	height: 100%;
+	/* background-color: red; */
+	float: left;
+	background-image: url('../img/sp_03.png');
+	background-position: center;
+	background-size: cover;
+}
+footer .money{
+	width: 1.53rem;
+	height: 0.7rem;
+	/* background-color: yellow; */
+	float: left;
+	font-size: 0.24rem;
+	color: #040404;
+	margin-top: 0.07rem;
+}
+footer .balance{
+	width: 1.86rem;
+	height: 0.64rem;
+	border-radius: 0.32rem;
+	background-color: #595959;
+	float: right;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.64rem;
+	margin-top: 0.07rem;
+	color: white;
+}
